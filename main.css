@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    background-image: url('../img/boom.jpg');
+    background-size: cover;
+
+   
+}
+
+header{
+   width: 120%;
+   height: 70px;
+   font-family: prata;
+   
+}
+
+ul{
+   float: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 30%;
+   font-family: prata;
+}
+button{
+    
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+li{
+   display: inline-block;
+   padding: 15px 30px;
+   font-family: prata;
+   font-size:16px;
+}
+
+h3{
+    float: inline-start;
+    align-content: center;
+    height:6ch;
+    font-size:30px;
+    font-style: normal;
+   color:  #7D5A50 ;
+}
+
+p1{
+   width:25ch;
+   font-size:10xp;
+   font-family: prata;
+   row-gap: 8px;
+   flex-direction: column;
+   align-self: flex-end;
+   color: #E5B299;
+}
+
+p2{
+   align-self: center;
+  font-family: prata;
+  font-size:30px;
+  color: #7D5A50;
+}
